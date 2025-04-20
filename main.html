@@ -1,0 +1,107 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webfrel - Under Development</title>
+  <style>
+    :root {
+      --primary-color: #c084fc;
+      --bg-gradient: linear-gradient(135deg, #0d0d0d, #120025);
+      --card-bg: rgba(255, 255, 255, 0.04);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --shadow-color: rgba(144, 19, 254, 0.15);
+      --text-light: #e0e0e0;
+      --text-muted: #888;
+    }* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg-gradient);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 40px 10px var(--shadow-color);
+  backdrop-filter: blur(6px);
+}
+
+.container h1 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.container p {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: var(--text-light);
+  line-height: 1.5;
+}
+
+.email-box {
+  margin-top: 20px;
+  padding: 12px 18px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  display: inline-block;
+  font-weight: 600;
+  color: #fff;
+  font-size: 0.95rem;
+  word-break: break-word;
+}
+
+.footer {
+  margin-top: 25px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 30px 20px;
+  }
+
+  .container h1 {
+    font-size: 1.6rem;
+  }
+
+  .container p {
+    font-size: 0.95rem;
+  }
+
+  .email-box {
+    font-size: 0.85rem;
+    padding: 10px 16px;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Webfrel is Under Development</h1>
+    <p>We’re working hard to bring something amazing to life.</p>
+    <p>Please stay tuned as we finalize the platform and perfect your future freelancing experience.</p>
+    <div class="email-box">Contact: support@webfrel.com</div>
+    <div class="footer">
+      &copy; 2025 Webfrel Inc. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
